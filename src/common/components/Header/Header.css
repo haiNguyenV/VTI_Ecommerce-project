@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-image: linear-gradient(to right, rgb(255, 81, 81) , rgb(253, 253, 110));;   
+    align-items: center;
+    margin: 0;
+}
+
+.header ul {
+    display: flex;
+    margin: 0;
+}
+
+.header ul li {
+    list-style: none;
+}
+
+.header ul li a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: .5s;
+}
+
+.header ul li a:hover {
+    color: #999;
+}

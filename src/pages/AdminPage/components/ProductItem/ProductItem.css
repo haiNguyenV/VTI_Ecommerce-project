@@ -1,0 +1,13 @@
+img {
+    width: 80px;
+}
+
+.func-product__btn {
+    margin: 10px !important;
+    transition: .3s !important;
+}
+
+.product__btn {
+    display: flex;
+    align-items: center;
+}
